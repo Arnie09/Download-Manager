@@ -1,6 +1,7 @@
 import os
 from os import walk
 import sys
+from sys import stdin
 import time
 import shutil
 from watchdog.observers import Observer
@@ -56,7 +57,9 @@ class MyHandler(FileSystemEventHandler):
 
 if __name__ == "__main__":
 
-    user_download_folder_path = input("Please enter the path of the download folder in your pc: ")
+    stdin = open(os.path.join(sys.path[0],"pathToDownloadFolder.in"),"r")
+    user_download_folder_path = stdin.readline()
+
 
     # code to create the basic categories of folders that we need. 
     try:
