@@ -20,7 +20,13 @@ from watchdog.events import FileSystemEventHandler
 
 '''
 
-FILEEXTENSIONS = [["jpeg","jpg","png","svg","gif","psd"],["mp4","mpeg","mpeg4","3gp","avi","mkv"],["xlsx","docx","pptx","txt"],["pdf"],["rar","iso","7z","aar","jar","gz","xz","deb"],["mp3","wav"],["opdownload"]]
+FILEEXTENSIONS = [["jpeg","jpg","png","svg","gif","psd"],
+                  ["mp4","mpeg","mpeg4","3gp","avi","mkv"],
+                  ["xlsx","docx","pptx","txt"],
+                  ["pdf"],
+                  ["rar","iso","7z","aar","jar","gz","xz","deb"],
+                  ["mp3","wav"],
+                  ["opdownload","crdownload"]]
 dictionaryFolder = {0:"Images",1:"Videos",2:"Docs",3:"PDFs",4:"CompressedFiles",5:"Audio",7:"Miscellaneous"}
 temp_list = []
 user_download_folder_path = ""
