@@ -1,0 +1,1 @@
+The script manages the download folder and makes it tidy.
