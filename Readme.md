@@ -15,3 +15,4 @@ Miscellaneous ["opdownload","crdownload"]
 Thats all the extennsions supported as of now.
 
 Add this script to the startup folder of the OS to start the script on boot. 
+Add the path of your download folder in the pathToDownloadFolder.in file
